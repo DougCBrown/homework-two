@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f9e9d8d8;
+}
+ 
+p {
+    font-size: 16px;
+    font-style: italic;
+    color: brown;
+}
+.mailer {
+    color: brown;
+    width: auto;
+    height: auto;
+    border: brown;
+    border-style: inset;
+    border-radius: 10px;
+}
+.thumb {
+    border-style: ridge;
+    border-radius: 8px;
+    border-color: brown;
+    width: 500px;
+    height: 275px;    
+}
+
+}
+a:active {
+    color:red;
+}
+a:hover {
+    color:black;
+}
+h1 {
+    font-size: 28px;
+    align-content: center;
+    object-fit: contain;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:brown
+}
+
+h3 {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:brown;
+    align-content: center;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-color: brown;
+    border-width: 2px;
+  }
+  
+img {
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: gold;
+    width: 200px;
+    height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* CSS to style and present the Facebook, Twitter and LinkedIn links to my social media */
+
+/* Style all font awesome icons */
+.fa {
+    font-size: 30px;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.bottom {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: brown;
+    border-radius: 8px;
+    border-style: inset;
+    padding-top: 10px;
+}
+
+.bottom h2 {
+    font-size: 20px;
+}
