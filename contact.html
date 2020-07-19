@@ -48,7 +48,7 @@
     </div>
     <div class="row">
       <div class="col-6  mailer">
-        <form class="form-horizontal" action="mailto:98bluecamaro@gmail.com" method="post" enctype="text/plain">
+        <form class="form-horizontal" name="contactform" action="contact-form-handler.php" method="post" enctype="text/plain">
           <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" class="form-control" id="name">
@@ -63,6 +63,14 @@
           </div>
           <button type="submit" class="btn btn-outline-success" onclick="submit_comment()">Submit</button>
         </form>
+        <script language="JavaScript">
+          // Code for validating the form
+          // for details
+          var frmvalidator  = new Validator("contactform");
+          frmvalidator.addValidation("name","req","Please provide your name"); 
+          frmvalidator.addValidation("email","req","Please provide your email"); 
+          frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+          </script>
       </div>
       <div class="col-md-6">
         <p>
