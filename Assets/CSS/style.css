@@ -5,13 +5,25 @@
 }
 
 body {
-background-color: #f9e9d8d8;
+    background: #f9e9d8d8;
+    background: linear-gradient(to right, #f9e9d8d8, #c69c6d);
 }
-
+.menu {
+    border-style: inset;
+    border-color: brown;
+    border-radius: 10px;
+}
 p {
     font-size: 16px;
     font-style: italic;
     color: brown;
+}
+.main {
+    width: 75VH;
+    height: 75VH;
+    border-style: inset;
+    border-color: brown;
+    border-radius: 10px;
 }
 .mailer {
     color: brown;
