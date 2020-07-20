@@ -5,9 +5,7 @@
 }
 
 body {
-    height: 100%;
-    width: 100%;
-    background-color: #f9e9d8d8;
+background-color: #f9e9d8d8;
 }
 
 p {
@@ -21,9 +19,14 @@ p {
     height: auto;
     padding: 20px;
 }
-.full-height {
-    height: 100%;
-}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+  }
+  .wrapper > * {
+    padding: 20px;
+  }
 .contact-info {
     padding-left: 60px;
     padding-top: 60px;
@@ -74,7 +77,6 @@ img {
     height: 200px;
 }
 /* CSS to style and present the Facebook, Twitter and LinkedIn links to my social media */
-
 /* Style all font awesome icons */
 .fa {
     font-size: 30px;
